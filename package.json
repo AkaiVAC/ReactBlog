@@ -1,0 +1,21 @@
+{
+    "name": "react-blog",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/AkaiVAC/ReactBlog.git",
+    "author": "Arun Vaikuntam <Arun.Vaikuntam@genzeon.com>",
+    "license": "MIT",
+    "scripts": {
+        "serve": "parcel ./src/app.html --out-dir ./build/output --cache-dir ./build/output --open",
+        "build": "parcel build --experimental-scope-hoisting ./src/app.html --out-dir ./build/output --cache-dir ./build/cache"
+    },
+    "dependencies": {
+        "react": ">=15",
+        "react-dom": "^16.10.2",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    }
+}
